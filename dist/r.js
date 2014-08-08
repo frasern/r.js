@@ -26539,7 +26539,8 @@ define('build', function (require) {
                 "excludeShallow": true,
                 "insertRequire": true,
                 "stubModules": true,
-                "deps": true
+                "deps": true,
+                "mainConfigFile": true
             };
 
         for (i = 0; i < ary.length; i++) {
